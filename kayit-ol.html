@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Tarla Yönetimi Kullanıcı Kayıt Ekranı</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tarla Yönetimi <br>Kullanıcı Kayıt Ekranı</h1>
+        <div class="kullanicigirislinkleri">
+            <a href="index.html">Giriş Yap / Log In</a>
+            <span id="linkspan">veya</span>
+            <a href="kayit-ol.html">Kayıt ol / Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+
+
+        <div class="kayit-form">
+            <form action="#">
+
+                <div id="ad-sec">
+                    <label for="ad-sec-input">Adınız</label>
+                    <input type="text" id="ad-sec-input" name="ad-sec" required>
+                </div>
+
+                <div id="soyad-sec">
+                    <label for="soyad-sec-input">Soyadınız</label>
+                    <input type="text" id="soyad-sec-input" name="soyad-sec" required >
+                </div>
+
+
+                <div id="email-sec">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="exp@exp.com">
+                </div>
+
+                <div id="kullanici-adi-sec">
+                    <label for="kullanici-ad-sec-input">Kullanıcı Adı</label>
+                    <input type="text" id="kullanici-ad-sec-input" name="kullanici-ad-sec" required placeholder="Kullanmak İstediğiniz Kullanıcı Adını Giriniz">
+                </div>
+
+                <div id="sifre-sec">
+                    <label for="sifre-sec-input">Şifre</label>
+                    <input type="password" id="sifre-sec-input" name="sifre-sec" required placeholder="Güçlü Bir Şifre Giriniz">
+                </div>
+
+                <div id="butonlar">
+                    <input type="button" id="kayit-ol" value="Kayıt Ol">
+                    <span>veya zaten bir hesabın varsa</span>
+                    <input type="submit" id="gonder" name="gonder" value="Giriş Yap">
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer><span>Bütün Hakları Saklıdır.</span></footer>
+</body>
+
+</html>
